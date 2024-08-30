@@ -1,0 +1,2 @@
+execute align xyz run summon block_display ~ ~ ~ {block_state:{Name:chiseled_polished_blackstone},Tags:["secret_door"]}
+execute align xyz run summon block_display ~ ~1 ~ {block_state:{Name:polished_blackstone_bricks},Tags:["secret_door"]}

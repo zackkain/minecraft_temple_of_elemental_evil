@@ -1,0 +1,1 @@
+data merge entity @e[type=armor_stand,limit=1,sort=nearest,nbt=!{DisabledSlots:1973790},distance=..5] {DisabledSlots:1973790}

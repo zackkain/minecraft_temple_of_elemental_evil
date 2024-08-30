@@ -1,0 +1,2 @@
+summon armor_stand ~ ~-1.3 ~-.4 {Pose:{Head:[270f,0f,0f],Body:[270f,0f,0f],LeftArm:[270f,0f,0f],RightArm:[270f,0f,0f]},ShowArms:1b,Invisible:1b,DisabledSlots:1973790,NoGravity:1b,NoBasePlate:1b,ArmorItems:[{},{id:iron_leggings,count:1},{id:iron_chestplate,count:1},{id:skeleton_skull,count:1}]}
+summon armor_stand ~ ~-.5 ~.4 {Pose:{Body:[0f,0f,0f],LeftLeg:[270f,0f,0f],RightLeg:[270f,0f,0f]},ShowArms:1b,Invisible:1b,DisabledSlots:1973790,NoGravity:1b,NoBasePlate:1b,ArmorItems:[{id:iron_boots,count:1},{id:iron_leggings,count:1}]}

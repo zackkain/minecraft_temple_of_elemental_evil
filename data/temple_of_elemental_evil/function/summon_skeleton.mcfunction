@@ -1,0 +1,2 @@
+summon armor_stand ~ ~-1.3 ~-.3 {Pose:{Head:[270f,0f,0f],Body:[270f,0f,0f],LeftArm:[270f,350f,0f],RightArm:[270f,10f,0f]},ShowArms:1b,Invisible:1b,DisabledSlots:1973790,NoGravity:1b,NoBasePlate:1b,ArmorItems:[{},{id:chainmail_leggings,count:1},{id:chainmail_chestplate,count:1},{id:skeleton_skull,count:1}]}
+summon armor_stand ~ ~-.7 ~.3 {Pose:{Body:[0f,0f,0f],LeftLeg:[270f,350f,0f],RightLeg:[270f,10f,0f]},ShowArms:1b,Invisible:1b,DisabledSlots:1973790,NoGravity:1b,NoBasePlate:1b,ArmorItems:[{id:chainmail_boots,count:1},{id:chainmail_leggings,count:1}]}

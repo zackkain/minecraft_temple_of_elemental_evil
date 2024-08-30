@@ -1,0 +1,1 @@
+data merge entity @e[type=item_frame,limit=1,sort=nearest,nbt=!{Fixed:1b},distance=..5] {Fixed:1b}
