@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "currency",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "tag": "temple_of_elemental_evil:currency"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "custom_data": { "Tag": "temple_of_elemental_evil:currency"}
+    },
+    "count": 1
+  }
+}

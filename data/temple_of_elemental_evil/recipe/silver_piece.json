@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "currency",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "custom_data": { "temple_of_elemental_evil:currency": "temple_of_elemental_evil:silver_piece"},
+      "custom_name": "Silver Piece",
+      "max_stack_size": 99
+    },
+    "count": 1
+  }
+}

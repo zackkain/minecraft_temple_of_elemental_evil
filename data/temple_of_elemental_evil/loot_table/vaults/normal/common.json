@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:vault",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "temple_of_elemental_evil:generic/consumable/ominous"
+          "value": "temple_of_elemental_evil:generic/consumable/normal"
         }
       ],
       "rolls": 1.0
@@ -21,8 +21,24 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:ominous_trial_key"
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/treasure/normal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.50,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/armor/normal"
         }
       ],
       "rolls": 1.0
@@ -38,43 +54,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "temple_of_elemental_evil:generic/treasure/ominous"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "chance": 0.10,
-          "condition": "minecraft:random_chance"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "temple_of_elemental_evil:generic/armor/ominous"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "chance": 0.05,
-          "condition": "minecraft:random_chance"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "temple_of_elemental_evil:generic/weapon/ominous"
+          "value": "temple_of_elemental_evil:generic/weapon/normal"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "temple_of_elemental_evil:spawners/ominous/common"
+  "random_sequence": "temple_of_elemental_evil:vaults/normal"
 }

@@ -1,2 +1,0 @@
-execute align xyz run summon block_display ~ ~ ~ {block_state:{Name:chiseled_stone_bricks},Tags:["secret_door"]}
-execute align xyz run summon block_display ~ ~1 ~ {block_state:{Name:stone_bricks},Tags:["secret_door"]}

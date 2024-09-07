@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/armor/ominous/leather",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/armor/ominous/chainmail",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/armor/ominous/iron",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/armor/ominous/diamond",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "temple_of_elemental_evil:generic/armor/ominous"
+}

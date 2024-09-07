@@ -1,0 +1,1 @@
+function temple_of_elemental_evil:secret_door/create_generic {bottom:chiseled_stone_bricks,top:stone_bricks}

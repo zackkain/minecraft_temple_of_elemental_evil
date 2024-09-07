@@ -1,12 +1,15 @@
 # Temple of Elemental Evil
 
-## Commands
+This is a data pack to help me re-create the 1985 Dungeons and Dragons module "The Temple of Elemental Evil" by Gary Gygax with Frank Mentzer inside Minecraft.
 
-### Constructing the Dungeon
+## Functions
 
-/give @p minecraft:vault[ minecraft:block_entity_data={id: 'minecraft:vault', config: {loot_table: 'temple_of_elemental_evil:100'}}]
+### Create Secret Door
 
-### Resetting The Dungeon
+```minecraft
+/function temple_of_elemental_evil:secret_door/create_generic {bottom:chiseled_stone_bricks,top:stone_bricks}
+```
 
-#### Clearing Vaults
-/data remove block -4 -60 -7 server_data.rewarded_players
+### Spawner
+
+## Loot Tables

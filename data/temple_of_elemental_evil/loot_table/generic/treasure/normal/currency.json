@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "set_count"
+            },
+            {
+              "function": "set_name",
+              "name": "Copper Piece"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "temple_of_elemental_evil:currency": "temple_of_elemental_evil:copper_piece"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:copper_ingot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "set_count"
+            },
+            {
+              "function": "set_name",
+              "name": "Silver Piece"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "temple_of_elemental_evil:currency": "temple_of_elemental_evil:silver_piece"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "set_count"
+            },
+            {
+              "function": "set_name",
+              "name": "Gold Piece"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "temple_of_elemental_evil:currency": "temple_of_elemental_evil:gold_piece"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "set_count"
+            },
+            {
+              "function": "set_name",
+              "name": "Platinum Piece"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:max_stack_size": 99,
+                "minecraft:custom_data": {
+                  "temple_of_elemental_evil:currency": "temple_of_elemental_evil:platinum_piece"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:netherite_ingot",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "temple_of_elemental_evil:generic/treasure/normal/currency"
+}
