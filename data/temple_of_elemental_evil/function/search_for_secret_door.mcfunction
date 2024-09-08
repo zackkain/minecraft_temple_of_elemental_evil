@@ -1,1 +1,0 @@
-execute as @e[tag=secret_door,distance=..15] at @s run particle glow ~ ~ ~ .25 1 .25 10 256

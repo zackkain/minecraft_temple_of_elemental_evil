@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+      ]
+    }
+  ]
+}

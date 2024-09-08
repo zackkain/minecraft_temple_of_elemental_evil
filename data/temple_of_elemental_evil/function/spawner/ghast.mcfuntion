@@ -1,0 +1,3 @@
+# function temple_of_elemental_evil:spawner/ghast {room: Number}
+# function temple_of_elemental_evil:spawner/ghast {room:"common"}
+$function temple_of_elemental_evil:spawner/generic {mob:"zombie",count:2,name:"ghast",room:$(room)}
