@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:equipment",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -17,25 +17,15 @@
               "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:leather_helmet",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 0.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
           "name": "minecraft:leather_leggings",
           "weight": 1
-        },
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -51,7 +41,13 @@
           ],
           "name": "minecraft:leather_chestplate",
           "weight": 1
-        },
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
         {
           "type": "minecraft:item",
           "functions": [
@@ -71,6 +67,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "temple_of_elemental_evil:generic/armor/normal/leather"
+  ]
 }
