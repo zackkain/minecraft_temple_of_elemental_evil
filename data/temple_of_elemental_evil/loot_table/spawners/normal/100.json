@@ -2,17 +2,16 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
+      "bonus_rolls": 0.0,
+      "entries": [ 
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot"
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:spawners/normal/common",
+          "weight": 1
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "temple_of_elemental_evil:vaults/normal/100"
 }
