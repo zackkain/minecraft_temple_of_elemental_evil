@@ -6,7 +6,8 @@
       "entries": [ 
         {
           "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:generic/treasure/ominous/currency"
+          "value": "temple_of_elemental_evil:generic/treasure/ominous/currency",
+          "weight": 1
         }
       ],
       "rolls": 1.0
