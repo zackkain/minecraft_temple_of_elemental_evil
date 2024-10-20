@@ -31,6 +31,30 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
+          "chance": 0.50,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:ominous_bottle_amplifier": 1.0
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
           "chance": 0.25,
           "condition": "minecraft:random_chance"
         }

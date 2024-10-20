@@ -13,9 +13,19 @@
     },
     {
       "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
       "conditions": [
         {
-          "chance": 0.75,
+          "chance": 0.60,
           "condition": "minecraft:random_chance"
         }
       ],
@@ -23,6 +33,30 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ominous_trial_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.50,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:ominous_bottle_amplifier": 2.0
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

@@ -11,17 +11,7 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:generic/armor/normal"
-        }
-      ],
-      "rolls": 1.0
     }
   ],
-  "random_sequence": "temple_of_elemental_evil:vaults/normal/104"
+  "random_sequence": "temple_of_elemental_evil:vaults/normal/141"
 }

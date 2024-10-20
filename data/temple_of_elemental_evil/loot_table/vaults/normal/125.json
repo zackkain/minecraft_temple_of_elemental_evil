@@ -14,14 +14,15 @@
     },
     {
       "bonus_rolls": 0.0,
-      "entries": [
+      "entries": [ 
         {
           "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:generic/armor/normal"
+          "value": "temple_of_elemental_evil:generic/weapon/normal",
+          "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": 2.0
     }
   ],
-  "random_sequence": "temple_of_elemental_evil:vaults/normal/104"
+  "random_sequence": "temple_of_elemental_evil:vaults/normal/100"
 }
