@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:vaults/normal/common",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/consumable/normal/potion"
+        }
+      ],
+      "rolls": 5.0
+    }
+  ],
+  "random_sequence": "temple_of_elemental_evil:vaults/normal/330"
+}
