@@ -17,12 +17,12 @@
       "entries": [ 
         {
           "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:generic/weapon/ominous/common",
+          "value": "temple_of_elemental_evil:generic/treasure/ominous/gemstone",
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": 4.0
     }
   ],
-  "random_sequence": "temple_of_elemental_evil:vaults/ominous/347"
+  "random_sequence": "temple_of_elemental_evil:vaults/ominous/434"
 }
