@@ -10,6 +10,23 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.25,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/treasure/ominous/gemstone",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "temple_of_elemental_evil:generic/treasure/ominous"
