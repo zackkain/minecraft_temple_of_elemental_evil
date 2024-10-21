@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:equipment/ominous/humanoid"
+          "value": "temple_of_elemental_evil:equipment/ominous/leather"
         }
       ]
     }

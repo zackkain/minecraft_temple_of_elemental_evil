@@ -5,25 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:profile": "MHF_Ghast"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
           "type": "minecraft:loot_table",
-          "value": "temple_of_elemental_evil:equipment/ominous/leather"
+          "value": "temple_of_elemental_evil:equipment/normal/leather"
         }
       ]
     },
