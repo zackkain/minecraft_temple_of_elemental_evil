@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "D'LYSS"
+            }
+          ],
+          "name": "minecraft:paper",
+          "weight": 1.0
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/treasure/ominous/gemstone",
+          "weight": 1.0
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_trial_key",
+          "weight": 1.0
+        }
+      ],
+      "rolls": 2.0
+    }
+  ],
+  "random_sequence": "temple_of_elemental_evil:spawners/ominous/215"
+}
