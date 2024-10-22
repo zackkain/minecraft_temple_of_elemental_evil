@@ -22,7 +22,18 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/consumable/ominous",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "temple_of_elemental_evil:spawners/ominous/243a"
+  "random_sequence": "temple_of_elemental_evil:spawners/ominous/417"
 }
