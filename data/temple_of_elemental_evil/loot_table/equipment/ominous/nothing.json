@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+      ],
+      "rolls": 0
+    }
+  ]
+}
