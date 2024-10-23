@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:spawners/normal/common",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:generic/treasure/common/gemstone",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "temple_of_elemental_evil:spawners/normal/205b"
+}
