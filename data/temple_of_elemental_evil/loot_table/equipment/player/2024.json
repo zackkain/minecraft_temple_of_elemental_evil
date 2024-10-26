@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "sharpness": 5,
+                  "looting": 3
+                },
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ]
+              }
+            }
+          ],
+          "name": "minecraft:netherite_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:base_color": "black",
+                "minecraft:banner_patterns":[
+                  { "color": "green", "pattern": "minecraft:rhombus" }
+                ],
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ]
+              }
+            }
+          ],
+          "name": "minecraft:shield"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "protection": 4
+                },
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ],
+                "minecraft:trim": {
+                  "material": "gold",
+                  "pattern": "coast"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:chainmail_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "protection": 4
+                },
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ],
+                "minecraft:trim": {
+                  "material": "emerald",
+                  "pattern": "rib"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:netherite_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "protection": 4,
+                  "feather_falling": 4
+                },
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ],
+                "minecraft:trim": {
+                  "material": "quartz",
+                  "pattern": "bolt"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "protection": 4
+                },
+                "minecraft:lore": [
+                  "{'text': 'Oct 2024' }"
+                ],
+                "minecraft:trim": {
+                  "material": "emerald",
+                  "pattern": "wild"
+                }
+              }
+            }
+          ],
+          "name": "minecraft:netherite_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 64.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        }
+      ]
+    }
+  ]
+}
