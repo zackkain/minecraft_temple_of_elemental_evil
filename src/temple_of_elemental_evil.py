@@ -9,7 +9,7 @@ from .monster import Monster
 
 def _load_monsters():
   with open(pathlib.Path("src", "data", "monsters.json"), "r", encoding="UTF-8") as file_stream:
-    return [ Monster(monster) for monster in json.loads(file_stream.read()) ]
+    return [ Monster(**monster) for monster in json.loads(file_stream.read()) ]
 
 class TempleOfElementalEvil(Spawner, Equipment):
   def __init__(self):
