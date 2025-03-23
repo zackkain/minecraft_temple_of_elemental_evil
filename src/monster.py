@@ -12,3 +12,17 @@ class Monster():
   room: str = "common"
   scale: float = 1.0
   zombifyable: bool = False
+  custom_head: str = None
+  weapon_type: str = None
+  has_armor: bool = False
+  has_helmet: bool = False
+  # Compared to other mobs on the same floor
+  # 0: Weak
+  # 1: Medium
+  # 2: Strong
+  difficulty: int = 0
+  # 0: Floor 1
+  # 1: Floor 2
+  # 2: Floor 3
+  # 3: Floor 4
+  floor: int = 0

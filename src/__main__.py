@@ -14,6 +14,10 @@ def get_parser(temple_of_elemental_evil: TempleOfElementalEvil):
   equipment_parser.add_argument("--monster", "-m", type=str, default="*")
   equipment_parser.set_defaults(func=temple_of_elemental_evil.equipment)
 
+  all_parser = subparsers.add_parser("all", help="Render Everything")
+  all_parser.add_argument("--monster", "-m", type=str, default="*")
+  all_parser.set_defaults(func=temple_of_elemental_evil.all)
+
   return parser
 
 def main():

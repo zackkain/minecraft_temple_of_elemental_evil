@@ -11,13 +11,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 10.0
+                "max": 10.0,
+                "min": 0.0
               },
               "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:leather_leggings",
+          "name": "minecraft:chainmail_leggings",
           "weight": 1
         }
       ],
@@ -33,13 +33,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 10.0
+                "max": 10.0,
+                "min": 0.0
               },
               "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:leather_chestplate",
+          "name": "minecraft:chainmail_chestplate",
           "weight": 1
         }
       ],
@@ -55,13 +55,13 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
-                "max": 30.0,
-                "min": 10.0
+                "max": 10.0,
+                "min": 0.0
               },
               "options": "#minecraft:on_random_loot"
             }
           ],
-          "name": "minecraft:leather_boots",
+          "name": "minecraft:chainmail_boots",
           "weight": 1
         }
       ],

@@ -27,3 +27,7 @@ class TempleOfElementalEvil(Spawner, Equipment):
   
   def _render(self, template: jinja2.Template, context: Any):
     return template.render(context)
+  
+  def all(self, arguments):
+    self.spawner(arguments)
+    self.equipment(arguments)

@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
+          "name": "minecraft:wooden_axe",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
