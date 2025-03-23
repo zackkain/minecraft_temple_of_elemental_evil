@@ -136,7 +136,6 @@ class Equipment:
     path = pathlib.Path("data", "temple_of_elemental_evil", "loot_table", "equipment", difficulty, f"{monster.name.lower()}.json")
     with open(path, "w+", encoding="UTF-8") as file_stream:
       file_contents = self._render_equipment(monster, difficulty)
-      print(f"Equipment: {monster.name}, {difficulty}")
       file_stream.write(file_contents)
 
   def equipment(self, arguments):
