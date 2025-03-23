@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/{{ name | lower }}
+function temple_of_elemental_evil:spawner/{{ 'generic' if not zombifyable else 'zombifyable' }} {mob:"{{ mob }}",count:{{ count }},added_per_player:{{ added_per_player }},name:"{{ name }}",equipment:"{{ equipment }}",room:"{{ room }}",armor:{{ armor }},damage:{{ damage }},scale:{{ scale }}f}
