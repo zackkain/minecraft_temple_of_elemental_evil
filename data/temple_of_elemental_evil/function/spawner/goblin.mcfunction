@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/goblin
+function temple_of_elemental_evil:spawner/zombifyable {mob:"piglin_brute",count:4,added_per_player:1,name:"Goblin",equipment:"nothing",room:"common",armor:0,damage:3,scale:0.5f}

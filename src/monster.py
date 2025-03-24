@@ -4,12 +4,15 @@ from dataclasses import dataclass
 class Monster():
   name: str
   mob: str
-  armor: int
-  damage: int
+  # 0-30
+  armor: int = 2
+  # 0-2048
+  damage: int = 2
   count: int = 1
   added_per_player: int = 0
   equipment: str = "nothing"
   room: str = "common"
+  # 0.0625-16
   scale: float = 1.0
   zombifyable: bool = False
   custom_head: str = None

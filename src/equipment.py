@@ -12,11 +12,11 @@ WEAPON_MATERIALS: list[WeaponMaterial] = ["wooden","stone","iron","diamond","net
 type WeaponType = Literal["axe", "sword"]
 
 def get_armor_material(monster: Monster):
-  offset = monster.floor + monster.difficulty
+  offset = min(monster.floor + monster.difficulty, len(ARMOR_MATERIALS) - 1)
   return ARMOR_MATERIALS[offset]
 
 def get_weapon_material(monster: Monster):
-  offset = monster.floor + monster.difficulty
+  offset = min(monster.floor + monster.difficulty, len(WEAPON_MATERIALS) - 1)
   return WEAPON_MATERIALS[offset]
 
 DEFAULT = {

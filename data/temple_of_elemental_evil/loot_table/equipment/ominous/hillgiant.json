@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "temple_of_elemental_evil:equipment/ominous/diamond"
+        }
+      ]
+    }
+  ]
+}
