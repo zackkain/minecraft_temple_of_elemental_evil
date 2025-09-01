@@ -1,0 +1,6 @@
+{
+  "environment": "temple_of_elemental_evil:mobs",
+  "structure": "temple_of_elemental_evil:test_ghast",
+  "max_ticks": 2000,
+  "type": "block_based"
+}

@@ -1,2 +1,2 @@
 # function temple_of_elemental_evil:spawner/hobgoblin
-function temple_of_elemental_evil:spawner/generic {mob:"piglin_brute",count:2,added_per_player:0,name:"Hobgoblin",equipment:"nothing",room:"common",armor:0,damage:2,scale:1.0f}
+function temple_of_elemental_evil:spawner/generic {mob:"piglin_brute",count:2,added_per_player:0,name:"Hobgoblin",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

@@ -1,2 +1,2 @@
 # function temple_of_elemental_evil:spawner/rat
-function temple_of_elemental_evil:spawner/generic {mob:"silverfish",count:6,added_per_player:2,name:"Rat",equipment:"nothing",room:"common",armor:0,damage:2,scale:1.0f}
+function temple_of_elemental_evil:spawner/generic {mob:"silverfish",count:6,added_per_player:2,name:"Rat",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}
