@@ -2,18 +2,26 @@
   "type": "minecraft:equipment",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": "MHF_Steve"
+              }
+            }
+          ],
           "weight": 1.0
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -32,7 +40,7 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:silence"
+                  "pattern": "minecraft:rib"
                 }
               }
             }
@@ -44,7 +52,7 @@
       "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -63,7 +71,7 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:quartz",
-                  "pattern": "minecraft:coast"
+                  "pattern": "minecraft:rib"
                 }
               }
             }
@@ -75,7 +83,7 @@
       "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -103,10 +111,10 @@
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -124,7 +132,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }

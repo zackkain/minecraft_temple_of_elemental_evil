@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/ogre_chieftain
+function temple_of_elemental_evil:spawner/zombifyable {mob:"piglin_brute",count:1,added_per_player:0,name:"Ogre Chieftain",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.3f}

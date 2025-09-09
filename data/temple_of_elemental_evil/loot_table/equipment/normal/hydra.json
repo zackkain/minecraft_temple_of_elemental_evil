@@ -2,8 +2,9 @@
   "type": "minecraft:equipment",
   "pools": [
     {
-      "rolls": 0,
-      "entries": []
+      "bonus_rolls": 0,
+      "entries": [],
+      "rolls": 0
     }
   ]
 }

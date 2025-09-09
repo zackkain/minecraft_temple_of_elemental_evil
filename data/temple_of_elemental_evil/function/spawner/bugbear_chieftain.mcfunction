@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/bugbear_chieftain
+function temple_of_elemental_evil:spawner/zombifyable {mob:"piglin_brute",count:2,added_per_player:1,name:"Bugbear Chieftain",equipment:"bugbear_chieftain",room:"common",armor:0,damage:3,scale:1.1f}

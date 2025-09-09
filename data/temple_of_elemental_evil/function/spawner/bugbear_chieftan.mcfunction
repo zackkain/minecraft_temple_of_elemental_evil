@@ -1,3 +1,2 @@
-# function temple_of_elemental_evil:spawner/bugbear {room: Number, total: Number}
-# function temple_of_elemental_evil:spawner/bugbear {room:"common",total: 6}
-$function temple_of_elemental_evil:spawner/zombifyable {mob:"piglin_brute",count:$(total),added_per_player:1,name:"Bugbear Chieftain",equipment:"bugbear_chieftain",room:$(room),armor:0,damage:3,scale:1}
+# function temple_of_elemental_evil:spawner/bugbear_chieftan
+function temple_of_elemental_evil:spawner/zombifyable {mob:"piglin_brute",count:2,added_per_player:1,name:"Bugbear Chieftan",equipment:"bugbear_chieftain",room:"common",armor:0,damage:3,scale:1.1f}

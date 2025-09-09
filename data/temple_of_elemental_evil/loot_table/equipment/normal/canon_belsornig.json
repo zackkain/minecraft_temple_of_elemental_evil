@@ -2,18 +2,26 @@
   "type": "minecraft:equipment",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": "MHF_Steve"
+              }
+            }
+          ],
           "weight": 1.0
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -30,7 +38,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:dyed_color": { "rgb": 6192150 },
+                "minecraft:dyed_color": {
+                  "rgb": 6192150
+                },
                 "minecraft:trim": {
                   "material": "minecraft:gold",
                   "pattern": "minecraft:vex"
@@ -45,7 +55,7 @@
       "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -62,7 +72,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:dyed_color": { "rgb": 6192150 },
+                "minecraft:dyed_color": {
+                  "rgb": 6192150
+                },
                 "minecraft:trim": {
                   "material": "minecraft:gold",
                   "pattern": "minecraft:vex"
@@ -77,7 +89,7 @@
       "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -94,10 +106,12 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:dyed_color": { "rgb": 6192150 },
+                "minecraft:dyed_color": {
+                  "rgb": 6192150
+                },
                 "minecraft:trim": {
                   "material": "minecraft:gold",
-                  "pattern": "minecraft:bolt"
+                  "pattern": "minecraft:vex"
                 }
               }
             }
@@ -106,10 +120,10 @@
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -127,7 +141,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }

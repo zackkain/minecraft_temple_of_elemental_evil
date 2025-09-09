@@ -1,3 +1,2 @@
 # function temple_of_elemental_evil:spawner/canon_belsornig
-# function temple_of_elemental_evil:spawner/canon_belsornig
-function temple_of_elemental_evil:spawner/generic {mob:"skeleton",count:1,added_per_player:0,name:"CanonBelsornig",equipment:"canon_belsornig",room:"215",armor:5,damage:2,scale:1.1f}
+function temple_of_elemental_evil:spawner/generic {mob:"skeleton",count:1,added_per_player:0,name:"Canon Belsornig",equipment:"canon_belsornig",room:"215",armor:5,damage:5,scale:1.1f}
