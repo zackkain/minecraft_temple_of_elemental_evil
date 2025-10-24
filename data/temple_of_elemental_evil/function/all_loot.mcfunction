@@ -1,0 +1,12 @@
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "currency", "item": "copper_ingot", "tag": "copper_piece", "value": 1 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "currency", "item": "iron_ingot", "tag": "silver_piece", "value": 10 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "currency", "item": "gold_ingot", "tag": "gold_piece", "value": 100 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "currency", "item": "netherite_ingot", "tag": "platinum_piece", "value": 1000 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "coal", "tag": "onyx", "value": 2 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "raw_copper", "tag": "banded_agate", "value": 25 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "fire_charge", "tag": "tiger_eye", "value": 250 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "cyan_dye", "tag": "turquoise", "value": 2500 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "redstone", "tag": "garnet", "value": 5 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "light_blue_dye", "tag": "zircon", "value": 50 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "amethyst_shard", "tag": "amethyst", "value": 500 }
+function temple_of_elemental_evil:loot_macro { player_name: "@p", "type": "gemstone", "item": "magenta_dye", "tag": "tourmaline", "value": 5000 }
