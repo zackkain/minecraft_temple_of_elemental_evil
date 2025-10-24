@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/shadow
+function temple_of_elemental_evil:spawner/generic {mob:"stray",count:6,added_per_player:2,name:"Shadow",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

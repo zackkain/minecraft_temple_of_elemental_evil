@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/leucrotta
+function temple_of_elemental_evil:spawner/zombifyable {mob:"hoglin",count:2,added_per_player:0,name:"Leucrotta",equipment:"nothing",room:"common",armor:4,damage:4,scale:1.0f}

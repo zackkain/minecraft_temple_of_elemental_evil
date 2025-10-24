@@ -1,2 +1,2 @@
 # function temple_of_elemental_evil:spawner/guards
-function temple_of_elemental_evil:spawner/generic {mob:"vindicator",count:4,added_per_player:2,name:"Guards",equipment:"nothing",room:"common",armor:0,damage:0,scale:1.0f}
+function temple_of_elemental_evil:spawner/generic {mob:"pillaeger",count:4,added_per_player:2,name:"Guards",equipment:"nothing",room:"common",armor:0,damage:0,scale:1.0f}

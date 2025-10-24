@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/umber_hulk
+function temple_of_elemental_evil:spawner/generic {mob:"ravager",count:1,added_per_player:0,name:"Umber Hulk",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

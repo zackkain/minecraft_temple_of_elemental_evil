@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/human_leader
+function temple_of_elemental_evil:spawner/generic {mob:"vindicator",count:1,added_per_player:0,name:"Human Leader",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

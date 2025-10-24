@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/suit_of_armor
+function temple_of_elemental_evil:spawner/generic {mob:"zombie",count:1,added_per_player:0,name:"Suit of Armor",equipment:"iron",room:"common",armor:2,damage:2,scale:1.0f}

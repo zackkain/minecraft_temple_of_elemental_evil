@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/will-o-wisp
+function temple_of_elemental_evil:spawner/generic {mob:"vex",count:4,added_per_player:1,name:"Will-o-wisp",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

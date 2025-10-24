@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/skeleton
+function temple_of_elemental_evil:spawner/generic {mob:"skeletom",count:4,added_per_player:3,name:"Skeleton",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

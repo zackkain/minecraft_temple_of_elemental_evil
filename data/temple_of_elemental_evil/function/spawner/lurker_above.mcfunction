@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/lurker_above
+function temple_of_elemental_evil:spawner/generic {mob:"phantom",count:1,added_per_player:1,name:"Lurker Above",equipment:"nothing",room:"common",armor:0,damage:10,scale:1.0f}

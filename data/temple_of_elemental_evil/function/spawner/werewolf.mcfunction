@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/werewolf
+function temple_of_elemental_evil:spawner/generic {mob:"vindicator",count:2,added_per_player:0,name:"Werewolf",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

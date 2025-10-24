@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/turnkey
+function temple_of_elemental_evil:spawner/generic {mob:"pillager",count:3,added_per_player:3,name:"Turnkey",equipment:"nothing",room:"common",armor:1,damage:1,scale:1.0f}

@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/groaning_spirit
+function temple_of_elemental_evil:spawner/generic {mob:"bogged",count:1,added_per_player:0,name:"Groaning Spirit",equipment:"nothing",room:"common",armor:3,damage:3,scale:1.0f}

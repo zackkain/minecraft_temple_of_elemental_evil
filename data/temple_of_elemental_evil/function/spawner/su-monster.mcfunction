@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/su-monster
+function temple_of_elemental_evil:spawner/zombifyable {mob:"hoglin",count:1,added_per_player:0,name:"Su-monster",equipment:"nothing",room:"common",armor:2,damage:2,scale:0.4f}

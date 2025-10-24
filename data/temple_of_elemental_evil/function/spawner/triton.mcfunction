@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/triton
+function temple_of_elemental_evil:spawner/generic {mob:"elder_guardian",count:1,added_per_player:0,name:"Triton",equipment:"nothing",room:"common",armor:10,damage:10,scale:1.0f}

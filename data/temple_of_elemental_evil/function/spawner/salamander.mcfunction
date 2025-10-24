@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/salamander
+function temple_of_elemental_evil:spawner/generic {mob:"blaze",count:4,added_per_player:4,name:"Salamander",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

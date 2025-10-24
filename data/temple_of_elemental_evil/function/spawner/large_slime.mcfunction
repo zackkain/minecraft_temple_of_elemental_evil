@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/large_slime
+function temple_of_elemental_evil:spawner/generic {mob:"slime",count:1,added_per_player:0,name:"Large Slime",equipment:"nothing",room:"common",armor:2,damage:2,scale:1.0f}

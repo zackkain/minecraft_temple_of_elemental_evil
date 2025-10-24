@@ -1,2 +1,2 @@
 # function temple_of_elemental_evil:spawner/bandit
-function temple_of_elemental_evil:spawner/generic {mob:"vindicator",count:6,added_per_player:0,name:"Bandit",equipment:"nothing",room:"common",armor:0,damage:3,scale:1f}
+function temple_of_elemental_evil:spawner/generic {mob:"pillager",count:6,added_per_player:0,name:"Bandit",equipment:"nothing",room:"common",armor:0,damage:3,scale:1.0f}

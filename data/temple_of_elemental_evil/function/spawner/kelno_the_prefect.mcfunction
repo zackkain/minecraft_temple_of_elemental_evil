@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/kelno_the_prefect
+function temple_of_elemental_evil:spawner/generic {mob:"evoker",count:1,added_per_player:0,name:"Kelno the Prefect",equipment:"kelno_the_prefect",room:"common",armor:2,damage:2,scale:1.1f}

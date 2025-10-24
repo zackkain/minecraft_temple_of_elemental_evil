@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/stirge
+function temple_of_elemental_evil:spawner/generic {mob:"vex",count:6,added_per_player:4,name:"Stirge",equipment:"nothing",room:"common",armor:2,damage:2,scale:2.0f}

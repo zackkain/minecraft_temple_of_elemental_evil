@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/troll
+function temple_of_elemental_evil:spawner/generic {mob:"bogged",count:1,added_per_player:1,name:"Troll",equipment:"nothing",room:"common",armor:4,damage:5,scale:1.3f}

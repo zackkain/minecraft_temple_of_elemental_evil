@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/romag
+function temple_of_elemental_evil:spawner/generic {mob:"witch",count:1,added_per_player:0,name:"Romag",equipment:"romag",room:"common",armor:2,damage:2,scale:1.1f}

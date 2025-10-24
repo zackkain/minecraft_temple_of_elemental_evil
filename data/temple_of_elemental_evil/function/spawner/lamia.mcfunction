@@ -1,0 +1,2 @@
+# function temple_of_elemental_evil:spawner/lamia
+function temple_of_elemental_evil:spawner/generic {mob:"vindicator",count:1,added_per_player:0,name:"Lamia",equipment:"lamia",room:"common",armor:3,damage:3,scale:1.0f}
