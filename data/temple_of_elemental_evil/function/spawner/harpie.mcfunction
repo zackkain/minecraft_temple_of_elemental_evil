@@ -1,2 +1,0 @@
-# function temple_of_elemental_evil:spawner/harpie
-function temple_of_elemental_evil:spawner/generic {mob:"vex",count:2,added_per_player:0,name:"Harpie",equipment:"nothing",room:"common",armor:2,damage:2,scale:3.0f}
